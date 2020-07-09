@@ -1,0 +1,35 @@
+title: Antonino DiMaggio
+description: Personal website and blog documenting my thoughts on machine learning, renewable energy, and science.
+url: "http://antoninodimaggio.com"
+author: Antonino DiMaggio
+name: Antonino DiMaggio
+permalink: /:title:output_ext
+
+twitter:
+  username: tonyjdimaggio
+  card: summary
+
+social:
+  type: # Person or Organization (defaults to Person)
+  name: # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+    - "https://twitter.com/tonyjdimaggio"
+    - "https://www.linkedin.com/antoninodimaggio"
+    - "https://github.com/antoninodimaggio"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: <!--more-->
+plugins:
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-seo-tag
+# files that should not be _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
