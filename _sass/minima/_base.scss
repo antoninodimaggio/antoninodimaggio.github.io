@@ -35,8 +35,14 @@ body {
 }
 
 .share-buttons {
-  display: inline;
   float: left;
+  a:hover {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  a:visited {
+    color: #ffffff;
+  }
 }
 
 .share-button .fb-like{
