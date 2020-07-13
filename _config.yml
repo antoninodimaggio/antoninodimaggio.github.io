@@ -5,6 +5,27 @@ author: Antonino DiMaggio
 name: Antonino DiMaggio
 permalink: /:title:output_ext
 
+# build settings
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: <!--more-->
+plugins:
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# files that should not be _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# markdown to html
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
+# jekyll seo
 twitter:
   username: tonyjdimaggio
   card: summary
@@ -17,19 +38,18 @@ social:
     - "https://www.linkedin.com/antoninodimaggio"
     - "https://github.com/antoninodimaggio"
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-excerpt_separator: <!--more-->
-plugins:
-  - jekyll-archives
-  - jekyll-sitemap
-  - jekyll-seo-tag
-# files that should not be _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-kramdown:
-  input: GFM
-  auto_ids: true
-  syntax_highlighter: rouge
+logo: /assets/images/profile_photo.jpg
+
+# minify css
+sass:
+  style: compressed
+
+# minify html
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
