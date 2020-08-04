@@ -82,9 +82,9 @@ Overall Method #1, using Gunnar-Farneback optical flow, achieved a lower evaluat
 **Put simply, the models need to be trained on a lot more data to gain the ability to generalize.**
 
 ## Previous Work
-* [https://github.com/ryanchesler/comma-speed-challenge](https://github.com/ryanchesler/comma-speed-challenge)
+* I found this to be the best resource: [https://github.com/ryanchesler/comma-speed-challenge](https://github.com/ryanchesler/comma-speed-challenge)
 * [https://github.com/jovsa/speed-challenge-2017](https://github.com/jovsa/speed-challenge-2017)
-* I found this to be the best resource: [https://github.com/JonathanCMitchell/speedChallenge](https://github.com/JonathanCMitchell/speedChallenge)
+* [https://github.com/JonathanCMitchell/speedChallenge](https://github.com/JonathanCMitchell/speedChallenge)
 
 ## Conclusion
 I may expand on this work in the future. There are more [robust data sets](https://github.com/commaai/comma2k19){: rel="nofollow"} that I would like to explore. Thanks for reading!
