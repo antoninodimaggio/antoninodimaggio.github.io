@@ -15,7 +15,7 @@ I stumbled across the [comma.ai speed challenge](https://github.com/commaai/spee
 
 The [code](https://github.com/antoninodimaggio/Voof) can be found on my [GitHub](https://github.com/antoninodimaggio).
 
-<iframe width="640" height="480" src="http://www.youtube.com/embed/vko7tUqESHU" frameborder="0"></iframe>{: style="padding-top: 25px;" class="center"}
+<iframe width="640" height="480" src="https://www.youtube.com/embed/vko7tUqESHU" frameborder="0"></iframe>{: style="padding-top: 25px;" class="center"}
 <div align="center">
   Training video for the comma.ai speed challenge
 </div>
