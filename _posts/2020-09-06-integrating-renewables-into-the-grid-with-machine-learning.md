@@ -56,6 +56,6 @@ Essentially, Google has a couple of renewable energy projects that help to power
 
 
 ## Key Takeaways
-Renewables are now economically competitive with fossil-fuel based power generation. To integrate renewables into the grid we have to accurately forecast renewable energy output. To forecast renewable energy output we can use machine learning. Some of the challenges associated with using machine learning to predict power output is the large amounts of data and compute needed to train models that can predict power output at variable time scales.
+Renewables are now economically competitive with fossil-fuel based power generation. To integrate renewables into the grid we have to accurately forecast renewable energy output. To forecast renewable energy output we can use machine learning. Some of the challenges associated with using machine learning to predict power output is the large amount of data and compute needed to train models that can predict power output at variable time intervals.
 
 Thanks for reading. If you have any suggestions on how I can improve this post please DM me on [Twitter](https://twitter.com/tonyjdimaggio).
