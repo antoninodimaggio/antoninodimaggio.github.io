@@ -30,6 +30,8 @@ twitter:
   username: tonyjdimaggio
   card: summary
 
+card_image: /assets/images/profile_photo_twitter.jpg
+
 social:
   type: # Person or Organization (defaults to Person)
   name: # If the user or organization name differs from the site's name
