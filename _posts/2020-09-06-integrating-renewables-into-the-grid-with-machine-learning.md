@@ -5,7 +5,7 @@ date: 2020-09-06
 tags: renewable-energy
 ---
 
-> The complexities of integrating renewables into the grid is here. Machine learning will be key in helping to make this transition possible.
+> The complexities of integrating renewables into the grid are here. Machine learning will be key in helping to make this transition possible.
 
 <!--more-->
 
