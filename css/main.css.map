@@ -1,12 +1,12 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/tonydimaggio/Documents/cs/websites/working_blog/blog",
+	"sourceRoot": "/Users/tonydimaggio/Documents/cs/websites/working_blog/Blog",
 	"sources": [
 		"themes/sam/assets/sass/style.sass",
-		"../blog/themes/sam/assets/sass/_vars.sass",
-		"../blog/themes/sam/assets/sass/_mixins.sass",
-		"../blog/themes/sam/assets/sass/_elements.sass"
+		"themes/sam/assets/sass/_vars.sass",
+		"themes/sam/assets/sass/_mixins.sass",
+		"themes/sam/assets/sass/_elements.sass"
 	],
 	"sourcesContent": [
 		"@import \"vars\";\n@import \"mixins\";\n\n* {\n    margin: 0;\n    padding: 0;\n    -webkit-box-sizing: border-box;\n    box-sizing: border-box; }\n\nhtml {\n    background-color: $background-color;\n    font-family: $font;\n    font-size: 16px; }\n\nbody {\n    font-size: $body-size;\n    font-family: $font;\n    color: $body-text;\n    line-height: 2rem;\n    letter-spacing: 1.5px;\n    text-shadow: none;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    align-items: center;\n    opacity: 1; }\n\nheader {\n    padding: 6em 1em 1em 0;\n    @media screen and (max-width: 736px) {\n        padding: 3em 0; } }\n\nh1,h2,h3 {\n    margin-bottom: 0.5em;\n    font-family: 'Didact Gothic', sans-serif;\n    opacity: 0.6; }\n\nli {\n    opacity: 0.8;\n    & a {\n        opacity: 0.9; } }\n\nul {\n    list-style-type: disc outside;\n    margin-left: 1.2em; }\n\np {\n    display: inline; }\n\na {\n    color: $links;\n    text-decoration: none;\n    border-bottom: 2px solid $links;\n    @include ease(0.5s);\n    &:hover {\n        color: $links-hover;\n        opacity: 0.3;\n        font-style: none; }\n    &:active {\n        color: $links; } }\n\nhr {\n    @include skinny-hr;\n    opacity: 0.3; }\n\nnav {\n    margin: 1em auto; }\n\n.wrap {\n    margin: 0 auto;\n    width: 45%;\n    max-width: 64em;\n    @media screen and (max-width: 736px) {\n        width: 90%; } }\n\n.tag-container {\n    display: flex;\n    flex-direction: row;\n    justify-content: flex-start;\n    align-items: center; }\n\n.tag {\n    background-color: transparent;\n    position: relative;\n    bottom: 0; }\n\n.flex-container {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: flex-start; }\n\n.lister {\n    margin-top: 2.2em; }\n\n.bottom-menu {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    text-align: center; }\n\n.footer {\n    width: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    text-align: center;\n    background-color: transparent;\n    position: relative;\n    bottom: 0;\n    padding: 1rem;\n    font-family: $font;\n    font-size: 1rem;\n    line-height: 1em;\n    opacity: 0.8;\n    a {\n        border-bottom: none;\n        display: contents; } }\n\n@import \"elements\";\n\n\n.go-left {\n    justify-content: flex-start;\n    align-items: flex-start; }\n\n.go-right {\n    justify-content: flex-end;\n    align-items: flex-end; }\n\n.go-center {\n    justify-content: center;\n    align-items: center; }\n",
